@@ -1,0 +1,169 @@
+.table-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 49px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 49px;
+}
+
+
+.card{
+  background: white;
+  width: 270px;
+  margin: 29px;
+  border-radius: 15px;
+  text-align: center;
+  padding-right: 4px;
+
+}
+
+.card-image{
+  height: 170px;
+  background-size: cover;
+  border-top-left-radius: 35px 20px;
+  border-top-right-radius: 35px 20px;
+
+}
+
+.card1{
+  background-image:url('./images/staff.jpg') ;
+}
+.card2{
+  background-image:url('./images/Release-ship.jpg') ;
+}
+
+.card3{
+  background-image:url('./images/offload.jpg') ;
+}
+
+
+.card h2 {
+  padding: 7px;
+}
+
+.card p {
+  padding: 5px;
+}
+
+
+
+
+.btn{
+   background-color: #333; 
+   border: 15px;
+   border-radius: 10px;
+   color: white;
+   padding: 10px 22px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 14px;
+   margin: 20px 75px;
+   cursor: pointer;
+   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btn:active {
+  transform: scale(0.98); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+.table{
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 2px solid white;       
+}
+
+
+.table td,.table th {
+  padding: 12px 15px;
+  /* border: 1px solid rgba(255, 255, 255, 0.4); */
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.table th{
+  background-color: #333;
+  color: #ffffff;
+  opacity: 0.9;
+
+}
+
+.table,  td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.table, th {
+  border: 2px solid black;
+  border-collapse: collapse;
+} 
+
+.table tr{
+  color: white;
+}
+
+.table tbody tr:nth-child(even){
+  background-color: rgba(210, 215, 211,0.6);
+  color: navy;
+}
+
+@media(max-width:500px){
+  .table thead{
+    display: none;
+  }
+
+  .table, .table tbody, .table tr, .table td{
+    display: block;
+    width:100px;
+  }
+  .table tr{
+    margin-bottom: 15px;
+  } 
+}
+
+.delete-btn:active {
+ transform: scale(0.98); 
+ box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+.edit-btn:active {
+  transform: scale(0.98); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+ }
+
+.delete-btn{
+  margin-left: 15px;
+  background-color:red; 
+  border: 15px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 3px 4px 8px 1px rgba(0, 0, 0, 0.24);
+}
+
+.edit-btn{
+  background-color:grey; 
+  border: 15px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 3px 4px 8px 1px rgba(0, 0, 0, 0.24);
+
+}
